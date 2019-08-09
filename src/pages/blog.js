@@ -1,15 +1,12 @@
 import React from "react"
-import Footer from "../components/footer"
-import Header from "../components/header"
+import Layout from "../components/layout"
 
 const Blog = () => {
   return (
-    <>
-      <Header />
+    <Layout>
       <h1>My Blog </h1>
       <p>Posts will show up later.</p>
-      <Footer />
-    </>
+    </Layout>
   )
 }
 
