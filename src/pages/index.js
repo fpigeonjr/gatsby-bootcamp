@@ -1,3 +1,10 @@
 import React from "react"
 
-export default () => <div>The Great Gatsby Bootcamp</div>
+const Homepage = () => (
+  <>
+    <h1>Hello. </h1>
+    <h2>I am Frank, a frontend developer living in San Antonio.</h2>
+  </>
+)
+
+export default Homepage
